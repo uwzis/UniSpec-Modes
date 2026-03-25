@@ -44,11 +44,32 @@ name = "my-awesome-mode"
 display_name = "My Awesome Mode"
 ```
 
-### 2. Submit to the Repository
+### 2. Test Locally First
+
+Before submitting, test your mode in a project:
+
+```bash
+# Create a test project
+mkdir test-project && cd test-project
+unispec init
+
+# Copy your mode to the project
+cp -r /path/to/my-awesome-mode ./modes/
+
+# Or install globally for testing
+cp -r /path/to/my-awesome-mode ~/.config/unispec/modes/
+
+# Activate and test
+unispec mode activate my-awesome-mode
+unispec mode list
+```
+
+### 3. Submit to the Repository
 
 1. Fork the [unispec-repo](https://github.com/uwzis/unispec-repo) repo
-2. Add your package to `unispec-repo.toml`
-3. Submit a PR
+2. Add your package folder to `./modes/` in the fork
+3. Add your package to `unispec-repo.toml` in the fork
+4. Submit a PR
 
 ### Package Format
 
