@@ -10,24 +10,6 @@ The UniSpec Repository is a collection of community-contributed packages that ex
 - **Connectors** - Commands that become MCP tools (test runners, linters, builders)
 - **Workflows** - Pre-built workflow definitions for different languages/frameworks
 
-## Using Packages
-
-```bash
-# List available packages
-unispec repo list
-
-# Install a package
-unispec repo install sprint-mode
-
-# Install globally (system-wide)
-unispec repo install sprint-mode --global
-
-# Install from a GitHub URL directly
-unispec repo add https://github.com/username/unispec-mode
-
-# Remove a package
-unispec repo remove sprint-mode
-```
 
 ## Contributing
 
