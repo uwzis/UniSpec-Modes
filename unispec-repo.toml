@@ -1,0 +1,26 @@
+# UniSpec Repository
+# Add your modes, connectors, and workflows here!
+# Format: https://github.com/username/repo-name
+
+registry_url = "https://github.com/uwzis/unispec-repo"
+
+# Already Default
+[package.default-modes]
+name = "Default Modes"
+description = "Default spec-driven development workflow: Staging → Building → Ship"
+repo_url = "https://github.com/uwzis/unispec-default-modes"
+license = "MIT"
+category = "mode"
+tags = ["default", "sdd", "beginner"]
+
+
+# Add your own packages below!
+# Follow this format:
+#
+# [package.your-package]
+# name = "Your Package Name"
+# description = "What it does"
+# repo_url = "https://github.com/yourusername/your-repo"
+# license = "MIT"  # or your license
+# category = "mode" | "connector" | "workflow"
+# tags = ["tag1", "tag2"]
